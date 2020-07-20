@@ -93,6 +93,7 @@ header {
 }
 
 H1 {
+  text-decoration: none;
     color: #FBCD2E;
 }
 
@@ -256,6 +257,7 @@ footer {
 }
 
 footer h2 {
+    text-decoration: none;
     color: #FBCD2E;
 }
 
