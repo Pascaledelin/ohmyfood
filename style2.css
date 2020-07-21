@@ -248,26 +248,45 @@ header
   width: auto;
   align-items: center;
 }
-
-
 footer 
 {
   position: fixed;
   bottom: 0px;
 }
-
-
 #containeur_prochainement{
 margin-bottom: 150px;
 }
 }
+/* -------------------- */
+/* ==   MEDIAS QUERIS   */
+/* -------------------- */
+
 @media all and (max-width:480px) /* --- PETIT MOYEN --- */
 {
-
 #containeur_footer{
 flex-direction: column;
   align-items: center;
 }
+#menu1{
+  margin-bottom: 10%;
+}
+}
+/* -------------------- */
+/* ==   MEDIAS QUERIS   */
+/* -------------------- */
 
+@media all and (max-width:768px) /* --- ECRAN LARGE --- */
+{
+  #containeur_footer{
+      width: 100%;
+    }
+  
+  #containeur_menu1{
+flex-direction: column;
+
+  }
+  #menu1{
+    margin-bottom: 10%;
+  }
 
 }
