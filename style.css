@@ -103,26 +103,29 @@ h4 {
 }
 
 #containeur_page_menu{
+   width: 100%;
   display: flex;
   margin-left: auto;
   margin-right: auto;
 }
 #group_1{
+  width:700PX;
   display: flex;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 20px;
+  padding-right: 10px;
 }
 #group_2{
+  width: 700PX;
   display: flex;
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 #title_page {
-  width: auto;
-  height: auto;
+  
     text-align: center;
     font-family: 'Caveat', cursive;
     font-size: 1.2em;
