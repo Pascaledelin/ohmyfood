@@ -109,15 +109,17 @@ h4 {
   margin-right: auto;
 }
 #group_1{
-  width:700PX;
+ width: auto;
   display: flex;
+  margin-left: auto;
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 20px;
+  padding-left:0px;
   padding-right: 10px;
 }
 #group_2{
-  width: 700PX;
+ width: auto;
+margin-right: auto;
   display: flex;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -400,6 +402,10 @@ margin-bottom: 150px;
 flex-direction: column;
   align-items: center;
 }
+#containeur_prochainement{
+  margin-bottom: 150px;
+  }
+
 }
 
 @media all and (max-width:768px) /* --- ECRAN LARGE --- */
@@ -422,4 +428,7 @@ flex-direction: column;
 
  margin:10;
 }
+#containeur_prochainement{
+  margin-bottom: 150px;
+  }
 }
