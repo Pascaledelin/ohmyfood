@@ -121,6 +121,8 @@ h4 {
 }
 
 #title_page {
+  width: auto;
+  height: auto;
     text-align: center;
     font-family: 'Caveat', cursive;
     font-size: 1.2em;
