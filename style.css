@@ -101,6 +101,25 @@ h4 {
     text-align: center;
     font-size: 1.5em;
 }
+
+#containeur_page_menu{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+#group_1{
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+#group_2{
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
 #title_page {
     text-align: center;
     font-family: 'Caveat', cursive;
@@ -150,6 +169,7 @@ transform: scale(1.50);}
   width: 300px;
   height: 400PX;
   display: flex;
+  margin-left: 20px;
   flex-direction: column;
   align-items: center;
   background: #f1ecf1;
@@ -216,6 +236,7 @@ transform: scale(1.50);}
     width: 300px;
     height: 400PX;
     display: flex;
+    margin-left: 20px;
     flex-direction: column;
     align-items: center;
     background: #fafafa;
@@ -374,6 +395,26 @@ margin-bottom: 150px;
 flex-direction: column;
   align-items: center;
 }
+}
 
+@media all and (max-width:768px) /* --- ECRAN LARGE --- */
+{
 
+  #containeur_page_menu
+{ 
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  align-items: center;
+}
+
+#group_1{
+
+  margin:  10;
+}
+
+#group_2{
+
+ margin:10;
+}
 }
