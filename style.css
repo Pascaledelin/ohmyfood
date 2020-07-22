@@ -89,7 +89,7 @@ main{
 header {
     text-align: center;
     background-color: #71aa87;
-    width: auto;
+    width: 100%;
 }
 
 H1 {
@@ -429,8 +429,9 @@ flex-direction: column;
   align-items: center;
 }
 #containeur_prochainement{
-  margin-bottom: 150px;
+  margin-bottom: 10px;
   }
+  
   #containeur_page_menu{
     flex-direction: column;
     align-items: center;
@@ -439,6 +440,10 @@ flex-direction: column;
 
 @media all and (max-width:320px) /* --- PETIT MOYEN --- */
 {
+
+header{
+  width: auto;
+}
 #containeur_footer{
 flex-direction: column;
   align-items: center;
@@ -447,17 +452,17 @@ flex-direction: column;
   margin-bottom: 150px;
   }
   #group_1{
-    display: flex;
+  
     flex-direction: column;
   }
   #groupe_2{
-    display: flex;
+  
     flex-direction: column;
-    margin-bottom: 10px;
+  
   }
   #containeur_page_menu{
     flex-direction: column;
-    align-items: center;
+    width: auto;
   }
 }
 }
