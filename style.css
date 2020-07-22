@@ -119,20 +119,18 @@ h4 {
 }
 #group_2{
  width: auto;
-margin-right: auto;
+  margin-right: auto;
   display: flex;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 10px;
 }
-
 #title_page {
   
     text-align: center;
     font-family: 'Caveat', cursive;
     font-size: 1.2em;
 }
-
 #page_menu{
     display: flex;
     justify-content: space-around;
@@ -161,7 +159,6 @@ font-size: 1.5em;
     font-size: 1.5em;
     transition-duration: 400ms;
 }
-
 #first_menu:hover{
 transform: scale(1.50);}
 
@@ -409,7 +406,7 @@ margin-bottom: 150px;
 
 #group_1{
 
-  margin:  10;
+  margin:10;
 }
 
 #group_2{
@@ -417,13 +414,16 @@ margin-bottom: 150px;
  margin:10;
 }
 #containeur_prochainement{
-  margin-bottom: 150px;
+  margin-bottom: 10px;
   }
 }
 
 @media all and (max-width:480px) /* --- PETIT MOYEN --- */
 {
-
+header{
+  height: AUTO;
+  align-items: center;
+}
 #containeur_footer{
 flex-direction: column;
   align-items: center;
@@ -431,8 +431,15 @@ flex-direction: column;
 #containeur_prochainement{
   margin-bottom: 10px;
   }
-  
   #containeur_page_menu{
+    flex-direction: column;
+    align-items: center;
+  }
+  #group_1{
+    flex-direction: column;
+    align-items: center;
+  }
+  #group_2{
     flex-direction: column;
     align-items: center;
   }

@@ -165,3 +165,58 @@ h3 {
 h2 {
   font-size: 1.4em;
 }
+
+@media all and (max-width:1024px)
+
+/* --- ECRAN LARGE --- */
+  {
+
+  header {
+    width: auto;
+  }
+
+  #page_menu {
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0px;
+  }
+
+  #containeur_prochainement {
+    margin-bottom: 150px;
+  }
+}
+
+/* -------------------- */
+/* ==   MEDIAS QUERIS   */
+/* -------------------- */
+
+
+@media all and (max-width:768px)/* --- ECRAN LARGE --- */
+  {
+
+  #containeur_menu1 {
+    flex-direction: column;
+
+  }
+
+}
+
+/* -------------------- */
+/* ==   MEDIAS QUERIS   */
+/* -------------------- */
+
+@media all and (max-width:480px) /* --- PETIT MOYEN --- */
+  {
+  #containeur_footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+
