@@ -261,19 +261,6 @@ margin-bottom: 150px;
 /* ==   MEDIAS QUERIS   */
 /* -------------------- */
 
-@media all and (max-width:480px) /* --- PETIT MOYEN --- */
-{
-#containeur_footer{
-flex-direction: column;
-  align-items: center;
-}
-#menu1{
-  margin-bottom: 10%;
-}
-}
-/* -------------------- */
-/* ==   MEDIAS QUERIS   */
-/* -------------------- */
 
 @media all and (max-width:768px) /* --- ECRAN LARGE --- */
 {
@@ -288,5 +275,25 @@ flex-direction: column;
   #menu1{
     margin-bottom: 10%;
   }
+}
+/* -------------------- */
+/* ==   MEDIAS QUERIS   */
+/* -------------------- */
 
+@media all and (max-width:480px) /* --- PETIT MOYEN --- */
+{
+#containeur_footer{
+flex-direction: column;
+  align-items: center;
+}
+#menu1{
+  flex-direction: column;
+  margin-bottom: 10%;
+}
+.fa-music{
+  display: none;
+}
+.menu_detail{
+flex-direction: column;
+}
 }
