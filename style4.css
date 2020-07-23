@@ -163,7 +163,6 @@ h3 {
 
 #containeur_menu3 {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
@@ -189,7 +188,7 @@ h3 {
 }
 
 #menu3 {
-    width: 700px;
+ 
     height: AUTO;
     font-family: 'Indie Flower', cursive;
     padding-top: 25px;
@@ -206,13 +205,14 @@ h3 {
     justify-content: space-between;
 }
 
-
 p {
     font-size: 1em;
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
+#containeur_footer {
+  width: 100%;
+}
 #bottom_menu {
     display: flex;
     justify-content: center;
@@ -335,18 +335,58 @@ p {
 /* ==   MEDIAS QUERIS   */
 /* -------------------- */
 
+@media all and (max-width:1024px)
+
+/* --- ECRAN LARGE --- */
+  {
+
+  header {
+    width: auto;
+  }
+
+  #page_menu {
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0px;
+  }
+
+  #containeur_prochainement {
+    margin-bottom: 150px;
+  }
+}
+
+/* -------------------- */
+/* ==   MEDIAS QUERIS   */
+/* -------------------- */
+
 
 @media all and (max-width:768px)
 
 /* --- ECRAN LARGE --- */
   {
 
-  #containeur_menu1 {
+  #containeur_menu3 {
     flex-direction: column;
-
+  
   }
-
-  #menu1 {
+  .containeur_menu_detail1{
+    flex-direction: column;
+   
+  }
+  .containeur_menu_detail2{
+    flex-direction: column;
+    
+  }
+  .containeur_menu_detail3{
+    flex-direction: column;
+   
+  }
+  #menu2 {
     margin-bottom: 10%;
   }
 }
@@ -362,23 +402,56 @@ p {
     align-items: center;
   }
 
-  #menu1 {
+  #menu3 {
     flex-direction: column;
     margin-bottom: 10%;
-  }
-
-  .fa-music {
-    display: none;
   }
 
   .menu_detail {
     flex-direction: column;
   }
+  .containeur_menu_detail1{
+
+    flex-direction: column;
+    
+  }
+  .containeur_menu_detail2{
+    flex-direction: column;
+    
+  }
+  .containeur_menu_detail3{
+    flex-direction: column;
+    
+  }
+  .container{
+    display: none;
+}
 }
 
 @media all and (min-width:768px)
 {
-  #menu1{
+  #menu3{
     width: 700px;
+    margin-bottom: 10%;
   }
+  .menu_detail {
+    flex-direction: column;
+  }
+  .containeur_menu_detail1{
+    flex-direction: column;
+   
+  }
+  .containeur_menu_detail2{
+    flex-direction: column;
+    
+  }
+  .containeur_menu_detail3{
+    flex-direction: column;
+    
+}
+}
+@media all and (max-width:320px){
+  .container{
+    display: none;
+}
 }

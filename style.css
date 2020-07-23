@@ -89,7 +89,7 @@ main{
 header {
     text-align: center;
     background-color: #71aa87;
-    width: 100%;
+    width: auto;
 }
 
 H1 {
@@ -103,7 +103,7 @@ h4 {
 }
 
 #containeur_page_menu{
-   width: 100%;
+  width: auto;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -112,18 +112,20 @@ h4 {
  width: auto;
   display: flex;
   margin-left: auto;
+  margin-bottom: 0;
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left:0px;
+  padding-left:10px;
   padding-right: 10px;
 }
 #group_2{
- width: auto;
+  width: auto;
   margin-right: auto;
   display: flex;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 10px;
+  padding-right: 10px;
 }
 #title_page {
   
@@ -150,6 +152,7 @@ font-size: 1.5em;
     box-shadow: 5px 5px 5px #a8a8a8;
     
 }
+
 #first_menu{
     width: 250px;
     height: 300px;
@@ -298,7 +301,7 @@ a {
     margin-bottom: 40PX;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     color: #FBCD2E;
     box-shadow: 5px 5px 5px #a8a8a8;
 }
@@ -353,30 +356,34 @@ a {
 
 header
 {
-  width: auto;
+  width:100%;
 }
-#page_menu
-{
-  flex-direction: column;
+#containeur_page_menu
+{flex-direction: column;
   width: auto;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+#group_2{
+  padding-top: 0;;
+}
 .menu_1 
 {
-  margin: 10PX;
+  margin: 5PX;
 }
 .menu_2
 {
-  margin: 10PX;
+  margin: 5PX;
 }
 .menu_3
 {
-  margin: 10PX;
+  margin: 5PX;
 }
 .menu_4
 {
-  margin: 10PX;
+  margin: 5PX;
 }
 footer 
 {
@@ -392,9 +399,12 @@ width: auto;
 margin-bottom: 150px;
 }
 }
-
+/* -------------------- */
+/* ==   MEDIAS QUERIS   */
+/* -------------------- */
 @media all and (max-width:768px) /* --- ECRAN LARGE --- */
 {
+  
 
   #containeur_page_menu
 { 
@@ -406,18 +416,20 @@ margin-bottom: 150px;
 
 #group_1{
 
-  margin:10;
+  margin:5;
 }
 
 #group_2{
 
- margin:10;
+ margin:5;
 }
 #containeur_prochainement{
-  margin-bottom: 10px;
+margin-bottom: 150px;
   }
 }
-
+/* -------------------- */
+/* ==   MEDIAS QUERIS   */
+/* -------------------- */
 @media all and (max-width:480px) /* --- PETIT MOYEN --- */
 {
 header{
@@ -429,7 +441,7 @@ flex-direction: column;
   align-items: center;
 }
 #containeur_prochainement{
-  margin-bottom: 10px;
+  margin-bottom: 150px;
   }
   #containeur_page_menu{
     flex-direction: column;
@@ -444,12 +456,17 @@ flex-direction: column;
     align-items: center;
   }
 }
-
+/* -------------------- */
+/* ==   MEDIAS QUERIS   */
+/* -------------------- */
 @media all and (max-width:320px) /* --- PETIT MOYEN --- */
 {
 
 header{
   width: auto;
+}
+.container{
+  display: none;
 }
 #containeur_footer{
 flex-direction: column;
@@ -471,5 +488,4 @@ flex-direction: column;
     flex-direction: column;
     width: auto;
   }
-}
 }
