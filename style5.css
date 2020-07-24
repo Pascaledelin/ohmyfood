@@ -293,10 +293,7 @@ p {
 
   /* --- TABLETTE --- */
     {
-    .container {
-      display: none;
-    }
-
+    
     #menu4 {
       width: 700PX;
     }
