@@ -89,7 +89,7 @@
 }
 
 html {
- 
+
   height: 100%;
 }
 
@@ -154,7 +154,7 @@ a {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 #containeur_menu_detail {
@@ -249,6 +249,7 @@ p {
 /* -------------------- */
 
 @media all and (max-width:1024px)
+/* --- LAD TOP --- */
 
 /* --- ECRAN LARGE --- */
   {
@@ -257,7 +258,7 @@ p {
     width: auto;
   }
 
-  
+
   footer {
     position: fixed;
     bottom: 0px;
@@ -272,8 +273,8 @@ p {
 /* ==   MEDIAS QUERIS   */
 /* -------------------- */
 
-
 @media all and (max-width:768px)
+/* --- TABLETTE --- */
 
 /* --- ECRAN LARGE --- */
   {
@@ -292,7 +293,9 @@ p {
 /* ==   MEDIAS QUERIS   */
 /* -------------------- */
 
-@media all and (max-width:480px) /* --- PETIT MOYEN --- */
+@media all and (max-width:480px)
+
+/* --- SMARTPHONE --- */
   {
   #containeur_footer {
     flex-direction: column;
@@ -311,25 +314,33 @@ p {
   .menu_detail {
     flex-direction: column;
   }
-  .container{
+
+  .container {
     display: none;
+  }
 }
-}
+
 /* -------------------- */
 /* ==   MEDIAS QUERIS   */
 /* -------------------- */
 @media all and (min-width:768px)
-{
-  #menu1{
+
+/* --- TABLETTE --- */
+  {
+  #menu1 {
     width: 700px;
   }
-  #containeur_menu1 
-  {
+
+  #containeur_menu1 {
     margin-bottom: 20px;
   }
 }
-@media all and (max-width:320px){
-  .container{
+
+@media all and (max-width:320px)
+
+/* --- SMARTPHONE --- */
+  {
+  .container {
     display: none;
-}
+  }
 }

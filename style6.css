@@ -166,9 +166,11 @@ h2 {
   font-size: 1.4em;
 }
 
-@media all and (max-width:1024px)
+/* -------------------- */
+/* ==   MEDIAS QUERIS   */
+/* -------------------- */
+@media all and (max-width:1024px)/* --- LAD TOP --- */
 
-/* --- ECRAN LARGE --- */
   {
 
   header {
@@ -195,8 +197,7 @@ h2 {
 /* ==   MEDIAS QUERIS   */
 /* -------------------- */
 
-
-@media all and (max-width:768px)/* --- ECRAN LARGE --- */
+@media all and (max-width:768px)/* --- TABLETTE --- */
   {
 
   #containeur_menu1 {
@@ -210,7 +211,7 @@ h2 {
 /* ==   MEDIAS QUERIS   */
 /* -------------------- */
 
-@media all and (max-width:480px) /* --- PETIT MOYEN --- */
+@media all and (max-width:480px) /* --- SMARTPHONE --- */
   {
   #containeur_footer {
     flex-direction: column;
