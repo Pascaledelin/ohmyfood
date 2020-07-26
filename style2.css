@@ -99,7 +99,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  nin-height: 100vh;
+  nin-height:100vh;
 }
 
 header {
