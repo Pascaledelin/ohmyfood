@@ -126,12 +126,8 @@ h4 {
 }
 
 footer {
-  flex:1;
-    background: #71aa87;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;flex:1;
-    background: #71aa87;
+    flex:1;
+    background-color: #71aa87;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -139,6 +135,8 @@ footer {
     left: 0px;
     bottom: 0px;
     left: 0px;
+    position: fixed;
+    width: 100%;
 }
 
 footer h2 {
@@ -186,6 +184,7 @@ h2 {
   footer {
     position: fixed;
     bottom: 0px;
+    width: 100%;
   }
 
   #containeur_prochainement {
