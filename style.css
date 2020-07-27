@@ -461,13 +461,19 @@ a {
   }
 
   #group_1 {
+<<<<<<< HEAD
 
-    margin: 5;
+=======
+>>>>>>> 56f43fe7a307337068148bafe934fe5829673af8
+    margin: 5px;
   }
 
   #group_2 {
+<<<<<<< HEAD
 
-    margin: 5;
+=======
+>>>>>>> 56f43fe7a307337068148bafe934fe5829673af8
+    margin: 5px;
   }
 
   #containeur_prochainement {
@@ -499,15 +505,6 @@ a {
     align-items: center;
   }
 
-  #group_1 {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #group_2 {
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 /* -------------------- */
