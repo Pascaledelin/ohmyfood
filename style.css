@@ -481,7 +481,7 @@ a {
 @media all and (max-width:480px)/* --- SMARTPHONE --- */
   {
   header {
-    height: AUTO;
+    height: auto;
     align-items: center;
   }
 
@@ -498,7 +498,6 @@ a {
     flex-direction: column;
     align-items: center;
   }
-
 }
 
 /* -------------------- */
@@ -508,7 +507,7 @@ a {
   {
 
   header {
-    width: auto;
+    width: 107%;
     margin:0;
   }
 
