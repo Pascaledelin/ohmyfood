@@ -110,7 +110,7 @@ main {
 header {
   text-align: center;
   background-color: #71aa87;
-  width: auto;
+  width: 100%;
 }
 
 H1 {
@@ -462,10 +462,12 @@ a {
 
   #group_1 {
     margin: 5px;
+    
   }
 
   #group_2 {
     margin: 5px;
+    
   }
 
   #containeur_prochainement {
@@ -507,6 +509,7 @@ a {
 
   header {
     width: auto;
+    margin:0;
   }
 
   .container {
@@ -522,15 +525,12 @@ a {
     margin-bottom: 150px;
   }
 
-  #group_1 {
-
+  #group_1{
     flex-direction: column;
   }
 
-  #groupe_2 {
-
+  #group_2{
     flex-direction: column;
-
   }
 
   #containeur_page_menu {
