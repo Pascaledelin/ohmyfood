@@ -101,7 +101,7 @@ body {
 
 main {
   height: 100%;
-  width: 100%;
+  width:100%;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -474,13 +474,17 @@ a {
     margin-bottom: 150px;
   }
 }
+@media all and (max-width:600px)/* --- SMARTPHONE --- */
+{
 
+}
 /* -------------------- */
 /* ==   MEDIAS QUERIS   */
 /* -------------------- */
 @media all and (max-width:480px)/* --- SMARTPHONE --- */
   {
   header {
+   width: 160%;
     height: auto;
     align-items: center;
   }
