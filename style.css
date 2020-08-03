@@ -398,64 +398,7 @@ a {
 /* -------------------- */
 /* ==   MEDIAS QUERIS   */
 /* -------------------- */
-@media all and (max-width:1440px)/* --- LAD TOP --- */
-  {
-    footer {
-      position: fixed;
-      bottom: 0px;
-      width: 100%;
-      margin:0;
-    }
-  #group_1{
-      width: 600px;
-       margin-top: 1%;
-       margin-bottom: 1%;
-       justify-content: center;
-     }
-     .menu_1{
-       width: 300px;
-       justify-content: center;
-     }
-     #second_menu{
-      font-size: 1em;
-      margin-top: 60%;
-     }
-     #third_menu{
-      font-size: 1.1em;
-      margin-top: 60%;
-     }
-     #fourth_menu{
-      font-size: 1.1em;
-      margin-top: 60%;
-     }
-     .menu_2{
-       width: 300PX;
-       justify-content: center;
-     }
-     .menu_3{
-       width: 300px;
-       justify-content: center;
-     }
-     .menu_4{
-       width: 300PX;        
-       justify-content: center;
-     }
-     #group_2{
-       width: 600px;
-       margin-bottom: 3%;
-       justify-content: center;
-     }
-   
-     #containeur_page_menu {
-       flex-direction: column;
-       width: auto;
-     }
-    
-  #containeur_prochainement {
-    margin-bottom: 150px;
-  }
 
-  }
 @media all and (max-width:1024px)/* --- LAD TOP --- */
   {
 
