@@ -445,6 +445,7 @@ a {
      }
    
      #containeur_page_menu {
+       display: flex;
        width: auto;
      }
     
