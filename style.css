@@ -448,6 +448,7 @@ a {
      }
    
      #containeur_page_menu {
+       flex-direction: column;
        width: auto;
      }
     
