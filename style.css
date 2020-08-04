@@ -565,7 +565,7 @@ a {
        justify-content: center;
      }
      .menu_3{
-       width: 250px;
+       width: 235px;
        justify-content: center;
      }
      .menu_4{
@@ -623,27 +623,43 @@ a {
      width: 100%;
       flex-direction: column;
       margin-top: 1%;
-      
     }
+
+    #second_menu{
+      font-size: 1.2em;
+      margin-top: 40%;
+     }
+     #third_menu{
+      font-size: 1.3em;
+      margin-top: 40%;
+     }
+     #fourth_menu{
+      font-size: 1.3em;
+      margin-top: 40%;
+     }
     .menu_1{
       width: 100%;
       justify-content: center;
       margin: 2PX;
+      box-shadow: none;
     }
     .menu_2{
       width: 100%;
       justify-content: center;
       margin: 2PX;
+      box-shadow: none;
     }
     .menu_3{
       width: 100%;
       justify-content: center;
       margin: 2PX;
+      box-shadow: none;
     }
     .menu_4{
       width: 100%;
       justify-content: center;
       margin: 2PX;
+      box-shadow: none;
     }
     #group_2{
       width: 100%;
@@ -654,6 +670,8 @@ a {
     #containeur_page_menu {
       flex-direction: column;
       width: auto;
+      margin-left: 12px;
+      margin-right: 12px;
     }
   }
   
@@ -694,21 +712,25 @@ a {
     width: 100%;
     justify-content: center;
     margin: 2PX;
+    box-shadow: none;
   }
   .menu_2{
     width: 100%;
     justify-content: center;
     margin: 2PX;
+    box-shadow: none;
   }
   .menu_3{
     width: 100%;
     justify-content: center;
     margin: 2PX;
+    box-shadow: none;
   }
   .menu_4{
     width: 100%;
     justify-content: center;
     margin: 2PX;
+    box-shadow: none;
   }
   #group_2{
     width: 100%;
@@ -718,6 +740,6 @@ a {
 
   #containeur_page_menu {
     flex-direction: column;
-    width: auto;
+    width: 96%;
   }
 }
