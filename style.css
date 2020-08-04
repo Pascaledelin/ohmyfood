@@ -79,11 +79,11 @@
   }
 }
 
-.btn1{
-  opacity: 0.5;
-}
-.btn1:hover{
+#first_menu{
   opacity: 1;
+}
+#first_menu:hover{
+  opacity: 0.5;
 }
 
 html {
@@ -171,7 +171,7 @@ span {
 }
 
 .menu_1 {
-  width: 50%;
+  width: 270px;
   height: 370PX;
   display: flex;
   flex-direction: column;
@@ -182,7 +182,7 @@ span {
 }
 
 #first_menu {
-  width: 250px;
+  width: 200px;
   height: 300px;
   margin-top: auto;
   text-align: center;
@@ -192,7 +192,7 @@ span {
 }
 
 #first_menu:hover {
-  transform: scale(1.50);
+  transform: scale(1.25);
 }
 
 .fa-music {
@@ -204,10 +204,10 @@ span {
 }
 
 .menu_2 {
-  width: 50%;
+  width: 270px;
   height: 370PX;
   display: flex;
-  margin-left: 20px;
+  margin-left: 30px;
   flex-direction: column;
   align-items: center;
   background: #f1ecf1;
@@ -229,7 +229,7 @@ span {
 }
 
 #second_menu:hover {
-  transform: scale(1.50);
+  transform: scale(1.25);
 }
 
 #second_menu span {
@@ -241,9 +241,10 @@ span {
 }
 
 .menu_3 {
-  width: 50%;
+  width: 270px;
   height: 370PX;
   display: flex;
+  margin-top: 20px;
   flex-direction: column;
   align-items: center;
   background: #edf0f8;
@@ -265,7 +266,7 @@ span {
 }
 
 #third_menu:hover {
-  transform: scale(1.50);
+  transform: scale(1.25);
 }
 
 #third_menu span {
@@ -277,10 +278,11 @@ span {
 }
 
 .menu_4 {
-  width: 50%;
+  width: 270px;
   height: 370PX;
   display: flex;
-  margin-left: 20px;
+  margin-left: 30px;
+  margin-top: 20px;
   flex-direction: column;
   align-items: center;
   background: #fafafa;
@@ -302,7 +304,7 @@ span {
 }
 
 #fourth_menu:hover {
-  transform: scale(1.50);
+  transform: scale(1.25);
 }
 
 #fourth_menu span {
