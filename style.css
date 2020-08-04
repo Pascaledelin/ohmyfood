@@ -681,10 +681,7 @@ a {
 @media all and (max-width:320px) /* --- SMARTPHONE --- */
   {
 
-  header {
-    width: 100%;
-    margin:0;
-  }
+ 
   footer {
     position: fixed;
     bottom: 0px;
@@ -740,6 +737,6 @@ a {
 
   #containeur_page_menu {
     flex-direction: column;
-    width: 96%;
+    width: 92%;
   }
 }
