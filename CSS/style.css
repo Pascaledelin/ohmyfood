@@ -296,6 +296,13 @@ main {
   transition-duration: 400ms;
 }
 
+#third_menu{
+  opacity: 1;
+}
+#third_menu:hover{
+  opacity: 0.5;
+}
+
 #third_menu:hover {
   transform: scale(1.25);
 }
@@ -344,6 +351,12 @@ main {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+#fourth_menu{
+  opacity: 1;
+}
+#fourth_menu:hover{
+  opacity: 0.5;
 }
 
 /* ------------------------------- */
